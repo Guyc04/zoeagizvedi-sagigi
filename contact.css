@@ -1,0 +1,75 @@
+.contact-flexbox{
+    display: flex; 
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+    align-items: baseline;
+}
+
+.phone-contact{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.contact-icons{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.numbers-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.all-contact-title{
+    font-size: 21px;
+    font-family: Arial;
+    color: black;
+    margin-left: 30px;
+}
+
+.numbers{
+    font-size: 17px;
+    font-family: Tahoma;
+    color: black;
+    line-height: 1.7;
+    margin-left: 40px;
+}
+
+.adress{
+    font-size: 17px;
+    font-family: Tahoma;
+    color: black;
+    line-height: 1.7;
+    margin-left: 40px;
+}
+
+.open-date-paragraph{
+    line-height: 1.7;
+}
+
+.email-link{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Tahoma;
+    color: rgb(3, 3, 65);
+    line-height: 1.7;
+    cursor: pointer;
+    margin-left: 40px;
+    transition: opacity 0.6s;
+}
+
+.email-link:hover{
+    opacity: 0.6;
+}
